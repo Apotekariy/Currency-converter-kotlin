@@ -63,6 +63,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.room.runtime.android)
 //    testImplementation(libs.junit)
 //    testImplementation(libs.testng)
 //    testImplementation(libs.junit.junit)
@@ -93,6 +94,7 @@ dependencies {
     // hilt
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
+    implementation(libs.hilt.navigation.compose)
 
     // navigation
     implementation(libs.androidx.navigation.fragment.ktx)
